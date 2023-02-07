@@ -35,7 +35,7 @@
     height: 100%;
 }
 
-.center-txt {
+#move {
     display: flex;
     color: white;
     font-size: 100px;
