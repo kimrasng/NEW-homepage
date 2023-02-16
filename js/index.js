@@ -2,12 +2,12 @@ let seconds = 1;
 let timerId;
 timerId = setInterval(function(){
 	console.log(seconds++)
-	if(seconds > 15){
+	if(seconds > 9){
 		clearInterval(timerId)
 	}
 	
 	if(seconds == 2){
-		document.getElementById("move").innerHTML = "안녕";
+		document.getElementById("move").innerHTML = "MERHABA";
 	}
 	
 	if(seconds == 3){
