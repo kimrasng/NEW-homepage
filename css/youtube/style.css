@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+#center>h1 {
+  margin: 0;
+  font-size: 5em;
+  color: white;
+  margin-top: -5em;
+}
+#submit {
+  margin-top: 6em;
+  display: flex;
+}
+#url {
+  color: var(--color-background);
+  background-color: rgb(207, 206, 206);
+  width: 15em;
+  font-size: 1.5em;
+  border: 0;
+  border-radius: 0.25em;
+}
+#yButton {
+  color: var(--color-text);
+  background-color: rgb(236, 42, 42);
+  font-weight: 600;
+  margin-left: 2em;
+  border: 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
